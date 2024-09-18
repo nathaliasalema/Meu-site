@@ -1,0 +1,124 @@
+*{
+  margin:0px;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  background-image: url('background.jpg') ;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+nav{
+  background-color: #d04983;
+  height: 70px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  align-items: center;
+}
+li.menu{
+  padding: 20px;
+  font-size: 20px;
+}
+.menuitem a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+.menuitem a:hover{
+  color: darkturquoise;
+}
+
+h1{
+  text-align: center;
+  color: #d04983;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+}
+
+.foto {
+    border-radius: 50%;
+    border: 3px solid #d04983;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    margin-top:100px ;
+    display: block; 
+}
+
+.conteudo-header{
+  text-align: center; 
+}
+
+h2{
+  text-align: center; 
+}
+
+#sobremim, #formacao2, #projetos2 {
+  margin: 50px auto;
+  max-width: 800px;  
+}
+
+#sobre, #home, #formacao, #projetos{
+ padding-top: 75px;
+}
+
+#img_projetos{
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px; 
+}
+
+#img_projetos img{
+  width: 500px;
+  height: auto;
+  border-radius: 20%;
+  box-shadow:0 0 20px rgba(208, 73, 131, 0.9);
+}
+
+ .pcontato{
+   padding-bottom: 20px;
+   color: white;
+ }
+
+footer{
+  background-color: #d04983;
+  padding: 20px;
+}
+
+.social-icons{
+  display:flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-icons img{
+  width: 35px;
+  height: 35px;
+}
+
+
+
